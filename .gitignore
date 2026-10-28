@@ -1,0 +1,64 @@
+```gitignore
+# ==========================================
+# AMBIENTE PYTHON
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# CACHE E ARQUIVOS COMPILADOS
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# DADOS DA PESQUISA
+# ==========================================
+data/fonte_original/
+data/derivados/
+
+# ==========================================
+# MATERIAIS PRIVADOS
+# ==========================================
+referencias/
+desdobramentos_&_afins/
+
+# ==========================================
+# IMAGENS
+# Ignorar todas, exceto a imagem pública do README
+# ==========================================
+imagens/*
+!imagens/card_readme.jpeg
+
+# ==========================================
+# CONFIGURAÇÕES LOCAIS E SEGREDOS
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets.*
+*.pem
+*.key
+
+# ==========================================
+# CONFIGURAÇÕES DO EDITOR
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# SISTEMA OPERACIONAL
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+```
