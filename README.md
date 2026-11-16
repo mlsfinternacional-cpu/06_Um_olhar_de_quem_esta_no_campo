@@ -4,22 +4,23 @@
 
 ### Pesquisa de campo · Análise exploratória · Profissionais de tecnologia
 
-**Investigar trajetórias profissionais a partir das experiências de quem está no campo.**
+**Trajetórias, competências e transformações no trabalho em tecnologia: uma leitura exploratória em diálogo com o cenário catarinense.**
 
 <img src="imagens/card_readme.jpeg" alt="Capa do projeto Um Olhar de Quem Está no Campo" width="100%">
 
 <br>
 
-<img src="https://img.shields.io/badge/Python-Análise_de_dados-36564F?style=flat-square&logo=python&logoColor=F5D0BE" alt="Python — Análise de dados">
-<img src="https://img.shields.io/badge/Pandas-Tratamento_de_dados-557466?style=flat-square&logo=pandas&logoColor=F8F5F0" alt="Pandas — Tratamento de dados">
-<img src="https://img.shields.io/badge/Jupyter-Notebooks-C87960?style=flat-square&logo=jupyter&logoColor=F8F5F0" alt="Jupyter — Notebooks">
-<img src="https://img.shields.io/badge/Pesquisa-De_campo-D8C9B5?style=flat-square&labelColor=36564F" alt="Pesquisa de campo">
-<img src="https://img.shields.io/badge/Análise-Exploratória-C87960?style=flat-square&labelColor=36564F" alt="Análise exploratória">
+<img src="https://img.shields.io/badge/Python-Análise_de_dados-36564F?style=for-the-badge&logo=python&logoColor=F5D0BE" alt="Python — Análise de dados">
+<img src="https://img.shields.io/badge/Pandas-Tratamento_de_dados-557466?style=for-the-badge&logo=pandas&logoColor=F8F5F0" alt="Pandas — Tratamento de dados">
+<img src="https://img.shields.io/badge/Jupyter-Notebooks-C87960?style=for-the-badge&logo=jupyter&logoColor=F8F5F0" alt="Jupyter — Notebooks">
+<img src="https://img.shields.io/badge/Pesquisa-De_campo-D8C9B5?style=for-the-badge&labelColor=36564F" alt="Pesquisa de campo">
+<img src="https://img.shields.io/badge/Análise-Exploratória-C87960?style=for-the-badge&labelColor=36564F" alt="Análise exploratória">
 
 <br><br>
 
-**Status:** Análise exploratória em andamento
-**Base inspecionada:** 54 respostas
+**Status:** análise exploratória por eixos concluída; integração analítica e contextualização em desenvolvimento  
+**Base principal:** 54 respostas  
+**Notebooks analíticos:** 5 — executados integralmente e revisados
 
 </div>
 
@@ -29,182 +30,272 @@
 
 **Um Olhar de Quem Está no Campo** é uma pesquisa sobre as experiências e percepções de profissionais que atuam na área de tecnologia.
 
-A investigação busca compreender aspectos das trajetórias profissionais, das influências que contribuíram para a escolha da área, do cotidiano de trabalho e das expectativas em relação à realidade profissional.
+A investigação busca compreender trajetórias profissionais, fatores que influenciaram a aproximação e a entrada na área, características do cotidiano de trabalho, correspondência entre expectativas iniciais e realidade vivenciada, além das recomendações e perspectivas compartilhadas por quem já está no campo.
 
-A proposta é olhar para os dados produzidos pelas próprias pessoas, explorando o que suas respostas revelam e quais perguntas podem surgir a partir delas.
+A pesquisa parte das respostas dos próprios participantes. O objetivo não é apenas apresentar frequências e gráficos, mas investigar recorrências, diferenças, combinações e questões que ajudem a compreender os fenômenos observados na amostra.
 
-Mais do que organizar respostas em gráficos, o projeto procura construir uma leitura contextualizada das experiências relatadas, respeitando os limites da amostra e distinguindo resultados observados de interpretações.
+## 02. Direção da pesquisa
 
-## 02. A pergunta que orienta o trabalho
+**Trajetórias, competências e transformações no trabalho em tecnologia: uma leitura exploratória em diálogo com o cenário catarinense.**
+
+A análise considera os resultados da pesquisa como evidências exploratórias e busca, em uma etapa posterior, contextualizá-los com dados públicos e referências institucionais pertinentes ao cenário de Santa Catarina.
+
+A amostra não é probabilística e não pretende representar estatisticamente o universo dos profissionais de tecnologia de Santa Catarina ou do Brasil. Os resultados são apresentados de forma agregada, preservando a identidade dos participantes.
+
+### Pergunta orientadora
 
 **O que podemos compreender sobre as trajetórias profissionais em tecnologia quando escutamos quem vive essas experiências?**
 
-Essa pergunta conduz o processo de análise.
+## 03. Estrutura analítica
 
-As respostas constituem o ponto de partida para identificar recorrências, observar diferenças, formular novas perguntas e investigar possíveis relações entre as experiências relatadas.
+A investigação está organizada em quatro eixos principais e uma dimensão complementar.
 
-A análise não parte de conclusões antecipadas. Os padrões precisam emergir da investigação, e as interpretações devem permanecer vinculadas às evidências disponíveis.
+### Eixo 1 — Perfil profissional
 
-## 03. Objetivos
+**Pergunta:** Quem são os profissionais que participaram da pesquisa e quais características definem o perfil dessa amostra?
 
-* Descrever o perfil dos participantes da pesquisa.
-* Explorar os fatores mencionados como influências nas trajetórias profissionais.
-* Investigar percepções sobre o cotidiano e a realidade de trabalho.
-* Identificar padrões e questões que mereçam aprofundamento.
-* Documentar as decisões metodológicas e as transformações realizadas nos dados.
-* Explorar possibilidades de contextualização dos resultados com fontes públicas pertinentes.
+Variáveis analisadas:
+- Estado;
+- gênero;
+- faixa etária;
+- escolaridade;
+- área de atuação;
+- tempo de atuação em tecnologia.
 
-## 04. A base de dados
+A análise inclui três cruzamentos exploratórios:
+- faixa etária × tempo de atuação;
+- escolaridade × área de atuação;
+- gênero × área de atuação.
 
-A coleta foi realizada por meio de um formulário on-line. Com o encerramento dessa etapa, o trabalho passou a se concentrar na inspeção, preparação e exploração das respostas.
+### Eixo 2 — Jornada
 
-A primeira inspeção identificou:
+**Pergunta:** Quais fatores influenciaram as trajetórias dos participantes até a área em que atuam hoje?
 
-| Característica                                                                            | Situação             |
-| ----------------------------------------------------------------------------------------- | -------------------- |
-| Registros identificados                                                                   | 54                   |
-| Colunas no arquivo inspecionado                                                           | 17                   |
-| Colunas após a identificação e exclusão da coluna inteiramente vazia na cópia de trabalho | 16                   |
-| Etapa atual                                                                               | Análise exploratória |
-| Documentação metodológica                                                                 | Em desenvolvimento   |
+A análise investiga:
+- frequência dos fatores de influência;
+- quantidade de fatores selecionados por participante;
+- combinações mais recorrentes;
+- fatores de influência por faixa etária;
+- fatores de influência por tempo de atuação;
+- fatores de influência por área profissional.
 
-### Uma particularidade importante
+A pergunta permitia múltiplas seleções. Por isso, os percentuais representam a proporção de participantes que assinalaram cada alternativa e não devem ser somados como categorias exclusivas.
 
-O arquivo identificado durante a inspeção contém `BASELINE_36_RESPOSTAS` no nome, embora tenham sido encontrados 54 registros. A pesquisa recebeu três perguntas adicionais após a 36ª resposta.
+### Eixo 3 — Realidade
 
-Essa particularidade está documentada e precisa ser considerada na interpretação das variáveis. A versão e a origem da base de referência também devem ser confirmadas antes de consolidar as análises.
+**Pergunta:** Como os participantes caracterizam sua realidade profissional e que percepções expressam sobre a experiência de trabalhar na área de tecnologia?
 
-## 05. Percurso analítico
+A análise contempla:
+- características presentes no cotidiano profissional;
+- combinações de características selecionadas;
+- correspondência entre realidade profissional e expectativas iniciais, medida em escala de 1 a 5;
+- recomendações consideradas importantes para quem está começando;
+- combinações de recomendações;
+- recomendações por faixa etária e por tempo de atuação.
 
-O trabalho está sendo desenvolvido por etapas, com registro das decisões e dos procedimentos realizados.
+A escala de correspondência entre expectativa e realidade não é tratada como medida de satisfação profissional. A pergunta sobre recomendações permitia até três seleções por participante.
 
-### Etapa 1 — Inspeção estrutural
+### Eixo 4 — Olhando para frente
 
-Leitura do arquivo CSV com Python e Pandas, identificação da quantidade de registros e colunas e verificação inicial da estrutura da base.
+**Pergunta:** O que os profissionais consideram importante para quem está começando na área de tecnologia e quais alertas, tendências ou recomendações desejam compartilhar a partir de sua experiência?
 
-### Etapa 2 — Preparação dos dados
+A análise reúne:
+- recomendações selecionadas no questionário;
+- combinações de recomendações;
+- inspeção das respostas abertas;
+- codificação temática das respostas;
+- frequência dos temas principais e secundários;
+- aproximações temáticas dos relatos.
 
-Criação de uma cópia de trabalho, padronização dos nomes das colunas e identificação de campos sem conteúdo, preservando a referência aos dados originais.
+A pergunta fechada sobre recomendações também é retomada no Eixo 3. No Eixo 4, ela é lida em conjunto com as respostas abertas, sem representar uma nova coleta ou um universo adicional de participantes.
 
-### Etapa 3 — Documentação das variáveis
+Na pergunta aberta, 24 participantes registraram respostas. Uma resposta foi excluída por não apresentar conteúdo relacionado à pergunta, e 23 foram consideradas na análise temática. As manifestações são voluntárias e não representam necessariamente os 54 participantes.
 
-Construção do dicionário de dados para registrar os nomes originais das colunas, os significados das variáveis, os valores observados e as questões que ainda precisam ser conferidas no formulário original.
+### Dimensão complementar — Uso de Inteligência Artificial
 
-### Etapa 4 — Análise descritiva
+**Pergunta:** Como os participantes incorporam ferramentas de inteligência artificial generativa em suas atividades profissionais relacionadas ao trabalho com dados?
 
-Exploração inicial das respostas para compreender a composição da amostra e observar as influências relatadas nas trajetórias profissionais.
+A dimensão examina:
+- frequência de utilização;
+- finalidades de utilização.
 
-### Etapa 5 — Investigação e contextualização
+As perguntas sobre IA foram incorporadas ao formulário após a resposta 36. Assim:
+- base principal da pesquisa: **N = 54**;
+- respostas válidas para a dimensão complementar de IA: **N = 18**.
 
-Identificação de questões que possam orientar cruzamentos, aprofundamentos e, quando pertinente, buscas por dados públicos que ajudem a contextualizar os achados.
+Essa diferença é estrutural, decorrente da evolução do instrumento de coleta. As 36 respostas ausentes nessa dimensão não devem ser interpretadas como ausência de uso de IA. Os resultados de IA são analisados separadamente, sempre com denominador N = 18.
 
-### Etapa 6 — Visualização e comunicação
+## 04. Resultados descritivos em destaque
 
-Desenvolvimento gradual de visualizações e conteúdos que conectem os resultados às perguntas da pesquisa, tornando a interpretação mais acessível sem simplificar excessivamente os dados.
+Os números abaixo sintetizam resultados observados nos cinco notebooks. As perguntas de múltipla escolha permitem mais de uma seleção; nesses casos, os percentuais não representam partes exclusivas de um total de 100%.
 
-As etapas não são tratadas como concluídas apenas porque foram planejadas. O andamento e as pendências são registrados na documentação do projeto.
+### Perfil profissional — N = 54
 
-## 06. Primeiros resultados descritivos
+- **Concentração territorial:** 46 participantes (85,2%) informaram Santa Catarina.
+- **Gênero:** 40 homens (74,1%), 13 mulheres (24,1%) e uma pessoa que preferiu não informar (1,9%).
+- **Faixa etária:** 28 participantes (51,9%) têm entre 35 e 54 anos.
+- **Escolaridade:** graduação (22; 40,7%) e pós-graduação (17; 31,5%) somam 72,2% da amostra.
+- **Tempo de atuação:** a faixa de 1 a 3 anos reúne 15 participantes (27,8%).
+- **Áreas de atuação:** foram registradas 107 marcações em 15 categorias. As mais frequentes foram Desenvolvimento de Software (27), Análise de Dados/Analytics (15), Inteligência Artificial/Machine Learning (14) e Gestão de Projetos em Tecnologia (11).
 
-As primeiras análises foram direcionadas ao perfil dos participantes e às influências mencionadas em suas trajetórias profissionais.
+### Jornada — N = 54
 
-### Perfil dos participantes
+Os fatores mais mencionados como influência na trajetória profissional foram:
+- autoaprendizado e curiosidade pessoal: 38 participantes (70,4%);
+- formação acadêmica ou cursos: 34 (63,0%);
+- transição de outra carreira: 22 (40,7%);
+- busca por estabilidade ou oportunidade de mercado: 13 (24,1%);
+- indicação ou influência da rede de contatos: 7 (13,0%);
+- acaso ou oportunidade inesperada: 7 (13,0%).
 
-A inspeção inicial identificou algumas características relevantes para contextualizar as respostas:
+A análise das escolhas também examinou quantos fatores cada participante selecionou, as combinações mais frequentes e a distribuição dos fatores por faixa etária, tempo de atuação e área profissional.
 
-* **Distribuição geográfica:** 46 dos 54 participantes informaram Santa Catarina como estado, correspondendo a 85,19% da amostra.
-* **Gênero:** 40 participantes são homens (74,07%), 13 são mulheres (24,07%) e uma pessoa preferiu não informar (1,85%).
-* **Faixa etária:** 28 participantes têm entre 35 e 54 anos, o equivalente a 51,85% da amostra.
-* **Escolaridade:** graduação e pós-graduação somam 39 participantes, correspondendo a 72,22%.
+### Realidade — N = 54
 
-Esses resultados descrevem as pessoas que responderam à pesquisa. Não constituem estimativas da composição de todo o mercado de tecnologia.
+No cotidiano profissional, destacaram-se:
+- resolução de problemas: 39 participantes (72,2%);
+- aprendizado contínuo: 37 (68,5%);
+- conhecimento técnico: 26 (48,1%);
+- comunicação e colaboração: 24 (44,4%);
+- adaptação a mudanças: 19 (35,2%);
+- gestão de prioridades: 18 (33,3%).
 
-### Influências na trajetória profissional
+Na correspondência entre realidade profissional e expectativas iniciais, a nota 3 foi a mais frequente (22; 40,7%), seguida pela nota 4 (17; 31,5%) e pela nota 5 (11; 20,4%). As notas 1 e 2 reuniram quatro respostas (7,4%). As notas 4 e 5, juntas, representam 28 participantes (51,9%).
 
-Na pergunta sobre os fatores que mais influenciaram a trajetória na área atual, destacaram-se:
+As recomendações para iniciantes mais assinaladas foram aprendizagem contínua (38; 70,4%), busca por experiência prática (30; 55,6%) e desenvolvimento de conhecimento técnico (27; 50,0%). Esses resultados são retomados no Eixo 4 junto às respostas abertas.
 
-| Influência mencionada                             | Participantes | Percentual |
-| ------------------------------------------------- | ------------: | ---------: |
-| Autaprendizado e curiosidade pessoal              |            38 |     70,37% |
-| Formação acadêmica ou cursos                      |            34 |     62,96% |
-| Transição de outra carreira                       |            22 |     40,74% |
-| Busca por estabilidade ou oportunidade de mercado |            13 |     24,07% |
-| Indicação ou influência da rede de contatos       |             7 |     12,96% |
-| Acaso ou oportunidade inesperada                  |             7 |     12,96% |
+### Olhando para frente — N = 54; respostas abertas analisadas = 23
 
-*Observação: a pergunta permite múltiplas seleções. Portanto, os percentuais não devem ser somados como se representassem categorias mutuamente exclusivas.*
+As recomendações fechadas mais frequentes foram aprendizagem contínua (38; 70,4%), experiência prática (30; 55,6%), conhecimento técnico (27; 50,0%) e habilidades comportamentais (25; 46,3%).
 
-O destaque do aprendizado autônomo e da curiosidade pessoal constitui um achado descritivo que pode orientar novas perguntas. Seu significado e suas possíveis relações com outros aspectos das trajetórias ainda precisam ser investigados.
+Foram identificadas 35 combinações distintas de recomendações. As dez combinações mais frequentes reuniram 29 participantes (53,7%).
+
+Na análise das respostas abertas:
+- 24 respostas foram registradas;
+- uma foi excluída por não apresentar conteúdo relacionado à pergunta;
+- 23 respostas foram analisadas;
+- foram registradas 59 menções de temas secundários;
+- essas menções foram organizadas em oito aproximações temáticas.
+
+As aproximações mais frequentes foram **Fundamentos e conhecimentos técnicos** (14 menções; 23,7%) e **Aprendizagem e desenvolvimento profissional** (13; 22,0%). A inteligência artificial também apareceu nos relatos espontâneos: foi identificada como tema principal em cinco das 23 respostas, sob diferentes formulações.
+
+Os percentuais das aproximações temáticas representam a distribuição das menções, não a proporção de participantes.
+
+### Uso de Inteligência Artificial — N = 18
+
+Na frequência de utilização:
+- uso integrado ao fluxo de trabalho: 9 participantes (50,0%);
+- uso diário ou quase diário: 8 (44,4%);
+- uso algumas vezes por semana: 1 (5,6%).
+
+Nas finalidades, destacaram-se:
+- geração ou revisão de código/scripts: 17 (94,4%);
+- redação e revisão de textos: 15 (83,3%);
+- análise e interpretação de dados: 13 (72,2%);
+- automação de tarefas: 11 (61,1%);
+- pesquisa e síntese de informações: 11 (61,1%);
+- planejamento e apoio à decisão: 9 (50,0%).
+
+A questão permitia múltiplas seleções. Os percentuais são calculados sobre os 18 participantes e podem ultrapassar 100% quando somados.
+
+## 05. Percurso analítico e documentação
+
+O trabalho foi desenvolvido em notebooks específicos, com etapas de preparação, apuração, visualização, leitura analítica, síntese e encerramento.
+
+Os cinco notebooks analíticos foram executados integralmente (*Run All*) e revisados:
+1. `01_perfil_profissional_analise_aprofundada.ipynb`
+2. `02_jornada_analise_aprofundada.ipynb`
+3. `03_realidade.ipynb`
+4. `04_olhando_para_frente.ipynb`
+5. `eixo_complementar_ia.ipynb`
+
+A execução integral foi utilizada para verificar a continuidade das células e a produção dos resultados e visualizações registrados em cada notebook.
+
+### Próxima etapa — integração analítica
+
+Com a análise organizada por eixos, a próxima fase é investigar o que a base revela quando seus resultados são lidos em conjunto. O trabalho seguirá esta sequência:
+
+1. preservar e conferir a base original;
+2. construir ou consolidar o dicionário de dados a partir do formulário e das colunas reais;
+3. documentar decisões de tratamento, padronização e criação de variáveis;
+4. integrar os principais resultados descritivos dos quatro eixos;
+5. aprofundar a leitura dos campos abertos e dos padrões identificados;
+6. formular perguntas analíticas e selecionar cruzamentos pertinentes;
+7. definir visualizações a partir dos achados;
+8. buscar dados públicos de Santa Catarina que possam dialogar com resultados específicos;
+9. preparar a documentação metodológica e o README final do projeto.
+
+A triangulação com fontes externas será seletiva. Cada aproximação deverá identificar o dado da pesquisa, a fonte externa, a citação e a leitura analítica. Quando não houver indicador comparável ou pertinente, o resultado interno poderá ser apresentado sem pareamento externo.
+
+## 06. Diretrizes metodológicas
+
+O projeto adota os seguintes princípios:
+
+- preservar a base original sem alterações;
+- registrar as transformações realizadas e suas justificativas;
+- documentar o significado das variáveis e suas limitações;
+- distinguir dado observado, interpretação e hipótese;
+- considerar os denominadores específicos de cada análise;
+- apresentar resultados de forma agregada;
+- não identificar participantes nem expor respostas individuais;
+- não estabelecer causalidade a partir de associações descritivas;
+- não forçar comparações com indicadores externos incompatíveis;
+- não generalizar resultados de uma amostra não probabilística.
+
+A documentação deverá permitir compreender como os dados foram organizados e analisados, sem presumir que a base individualizada possa ser publicada. Qualquer compartilhamento futuro deverá ser avaliado separadamente, considerando o consentimento, a privacidade e o risco de reidentificação.
 
 ## 07. Tecnologias e ferramentas
 
-O projeto utiliza ferramentas de programação e análise para inspecionar, organizar e explorar os dados.
+| Tecnologia | Utilização |
+|---|---|
+| **Python** | Desenvolvimento do processo de análise. |
+| **Pandas** | Leitura, inspeção, preparação e manipulação dos dados. |
+| **Matplotlib** | Construção das visualizações. |
+| **Jupyter Notebook** | Execução e documentação das etapas analíticas. |
+| **VS Code** | Ambiente de desenvolvimento. |
+| **Git e GitHub** | Versionamento do código e organização da documentação. |
 
-| Tecnologia           | Utilização                                             |
-| -------------------- | ------------------------------------------------------ |
-| **Python**           | Desenvolvimento do processo de análise.                |
-| **Pandas**           | Leitura, inspeção, preparação e manipulação dos dados. |
-| **Jupyter Notebook** | Execução e documentação das etapas analíticas.         |
-| **VS Code**          | Ambiente de desenvolvimento.                           |
-| **Git e GitHub**     | Versionamento do código e organização da documentação. |
-
-As ferramentas são escolhidas de acordo com as necessidades do trabalho. O foco está na construção de um processo analítico compreensível e rastreável, e não apenas na utilização de tecnologias.
+As ferramentas são utilizadas de acordo com as necessidades de cada etapa. O foco está na construção de um processo analítico compreensível, verificável e rastreável.
 
 ## 08. Organização do projeto
 
-A estrutura do repositório organiza os materiais de desenvolvimento e documentação.
+O repositório reúne arquivos de dados, notebooks, documentação, imagens e materiais de apresentação. A estrutura é organizada por eixos e etapas de trabalho.
 
 ```text
 06_Um_olhar_de_quem_esta_no_campo/
 │
 ├── README.md
 ├── .gitignore
-├── imagens/
-│   └── card_readme.jpeg
+├── data/
+│   ├── fonte_original/
+│   ├── derivados/
+│   └── fontes_publicas/
+├── docs/
+│   └── documentação e registros do projeto
 ├── notebooks/
-│   └── 01_inspecao_inicial.ipynb
-└── docs/
-    └── analise/
+│   ├── eixo_perfil_profissional/
+│   ├── eixo_jornada/
+│   ├── eixo_realidade/
+│   ├── eixo_olhando_para_frente/
+│   └── eixo_complementar_ia/
+├── imagens/
+└── materiais_apresentacao/
 ```
 
-A estrutura poderá ser ampliada conforme o desenvolvimento da pesquisa.
+A estrutura acima apresenta a organização geral do projeto; os arquivos e subdiretórios podem evoluir conforme a documentação e a integração analítica avançarem.
 
-Os dados originais, arquivos derivados e materiais de trabalho não são necessariamente disponibilizados publicamente. O conteúdo efetivamente publicado depende da organização vigente do repositório e dos cuidados de privacidade aplicáveis.
+Os dados originais e os arquivos de trabalho não são necessariamente disponibilizados publicamente. A presença de uma pasta no repositório não significa autorização para divulgação de seu conteúdo.
 
-## 09. Rastreabilidade e responsabilidade
+## 09. Sobre a pesquisadora
 
-A documentação é parte integrante do processo de análise.
-
-O projeto adota os seguintes princípios:
-
-* Preservar os dados originais.
-* Registrar as transformações realizadas e suas justificativas.
-* Documentar as características e limitações das variáveis.
-* Distinguir resultados descritivos de interpretações e hipóteses.
-* Identificar as fontes utilizadas para contextualizar os resultados.
-* Considerar a privacidade dos participantes e os riscos de identificação.
-* Evitar conclusões que ultrapassem as evidências disponíveis.
-
-O diário de análise registra o percurso realizado, as decisões tomadas, os resultados observados e as questões que permanecem em aberto.
-
-## 10. Limitações da pesquisa
-
-A pesquisa utiliza uma amostra não probabilística. Por essa razão, os resultados descrevem as respostas obtidas e não permitem, por si só, generalizações estatísticas sobre o conjunto dos profissionais de tecnologia.
-
-A concentração de participantes em Santa Catarina também precisa ser considerada na interpretação dos resultados e em eventuais comparações com dados externos.
-
-Além disso, algumas condições de preenchimento e categorias ainda dependem de conferência com o formulário original. Essas pendências devem ser resolvidas ou explicitadas antes de conclusões definitivas.
-
-## 11. Sobre a pesquisadora
-
-**Maria Laura Corrêa da Silva**
+**Maria Laura Corrêa da Silva**  
 Gestão de Impacto · Análise de Dados · Visualização de Dados e Business Intelligence
 
 Este projeto integra minha trajetória de formação e investigação na área de dados, no contexto do SCTEC/SENAI-SC.
 
-A pesquisa conecta o aprendizado técnico à investigação de experiências reais, buscando compreender como os dados podem contribuir para leituras mais contextualizadas sobre as pessoas e suas trajetórias profissionais.
+A pesquisa conecta o aprendizado técnico à investigação de experiências reais, buscando compreender como os dados podem contribuir para leituras mais contextualizadas sobre as trajetórias e transformações do trabalho em tecnologia.
 
-O trabalho é desenvolvido em parceria com a mentora de carreira **Helena Vaz Trindade**.
+O trabalho é desenvolvido com mentoria de carreira de **Helena Vaz Trindade**.
 
 ---
 

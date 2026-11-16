@@ -1,66 +1,76 @@
-```gitignore
-# ==========================================
-# AMBIENTE PYTHON
-# ==========================================
+# ==================================================
+# UM OLHAR DE QUEM ESTÁ NO CAMPO
+# GITIGNORE
+# ==================================================
+
+
+# 1. AMBIENTE PYTHON
 .venv/
 venv/
 env/
 ENV/
-
-# ==========================================
-# CACHE E ARQUIVOS COMPILADOS
-# ==========================================
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# ==========================================
-# JUPYTER NOTEBOOKS
-# ==========================================
+
+# 2. JUPYTER
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.ipynb.tmp
 
-# ==========================================
-# DADOS DA PESQUISA
-# ==========================================
-data/fonte_original/
-data/derivados/
 
-# ==========================================
-# MATERIAIS PRIVADOS
-# ==========================================
-referencias/
-desdobramentos_&_afins/
+# 3. DADOS DA PESQUISA
+data/*
+!data/README.md
 
-# ==========================================
-# IMAGENS
-# Ignorar todas, exceto a imagem pública do README
-# ==========================================
-imagens/*
-!imagens/card_readme.jpeg
 
-# ==========================================
-# CONFIGURAÇÕES LOCAIS E SEGREDOS
-# ==========================================
+# 4. DOCUMENTOS PESSOAIS E SENSÍVEIS
+docs/contatos/
+
+docs/analise/classificacao_qualitativa.csv
+docs/analise/revisao_qualitativa_24_respostas_v1.csv
+docs/analise/respostas_abertas_para_analise.md
+
+
+# 5. NOTEBOOKS ANTIGOS
+notebooks/01_inspecao_inicial.ipynb
+notebooks/02_consolidacao_analitica.ipynb
+
+
+# 6. CREDENCIAIS
 .env
 .env.*
 !.env.example
-secrets.*
+secrets/
+credentials/
 *.pem
 *.key
 
-# ==========================================
-# CONFIGURAÇÕES DO EDITOR
-# ==========================================
+
+# 7. EDITORES
 .vscode/
 .idea/
 
-# ==========================================
-# SISTEMA OPERACIONAL
-# ==========================================
+
+# 8. SISTEMA OPERACIONAL
 .DS_Store
 Thumbs.db
 desktop.ini
-```
-docs/contatos/
-diario_primeira_analise_um_olhar.md
+
+
+# 9. ARQUIVOS TEMPORÁRIOS
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+.cache/
+.temp/
+tmp/
+temp/
