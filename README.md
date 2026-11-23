@@ -6,6 +6,14 @@
 
 **Pesquisa de campo · Análise exploratória · Profissionais de tecnologia**
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-an%C3%A1lise-19483F?style=for-the-badge&logo=python&logoColor=FBF5EC" alt="Python" />
+  <img src="https://img.shields.io/badge/Pandas-tratamento_Dados-19483F?style=for-the-badge&logo=pandas&logoColor=FBF5EC" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Jupyter-notebooks-D66B45?style=for-the-badge&logo=jupyter&logoColor=FBF5EC" alt="Jupyter Notebook" />
+  <img src="https://img.shields.io/badge/Matplotlib-visualiza%C3%A7%C3%A3o-D66B45?style=for-the-badge&logo=plotly&logoColor=FBF5EC" alt="Visualização de dados" />
+  <img src="https://img.shields.io/badge/Git%20%26%20GitHub-versionamento-19483F?style=for-the-badge&logo=github&logoColor=FBF5EC" alt="Git e GitHub" />
+</p>
+
 ![Capa — Um Olhar de Quem Está no Campo](imagens/card_readme.jpeg)
 
 **Maria Laura Corrêa da Silva**  
